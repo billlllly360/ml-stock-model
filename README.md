@@ -1,6 +1,7 @@
 # QQQ Stock Prediction with Random Forest
 
 This project uses a Random Forest Regressor to predict daily returns for the QQQ ETF using historical market data and technical indicators.
+An academic-style machine learning project focused on return predictability rather than trading performance.
 
 Project Summary
 - Target: Next-day percentage return of QQQ.
@@ -18,4 +19,4 @@ Key Results
 Model MAE: 0.008605199975832254
 Baseline MAE (predict 0): 0.008627828505098733
 
- slightly win Random Walk Theory
+  The model achieves a small improvement over a Random Walk baseline, consistent with the weak predictability of short-horizon equity returns.
